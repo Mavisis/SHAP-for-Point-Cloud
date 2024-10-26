@@ -25,4 +25,4 @@ If you find our work useful in your research, please consider citing:
 
 ### Usage
 When loading in a single instance, the following output can be observed: 
-![Image here](https://github.com/Mavisis/SHAP-for-Point-Cloud/blob/main/SHAX_PC_pipeline.png)
+![Image here](https://github.com/Mavisis/SHAP-for-Point-Cloud/blob/main/Shapley_value_Chair.png)
