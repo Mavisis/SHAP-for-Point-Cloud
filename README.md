@@ -5,7 +5,6 @@ Created by Marc F. Harinck from the University of Twente
 This project is part of a research into Explainable articifal Intelegence. THe already existing SHAP library contains explainers for two dimentionall imagery, text and tabular data. The library does not contain eplainers for more complex data structures such as point clouds. 
 This code is an implementation of the Shapley values theory applied to pointcloud. By computing an individual contribution of a single point wiithin the cloud, relative to the cloud, and iterating over all points in the cloud using monte-carlo sampling, An three-axis  visual is created containing the origional pointcloud with a colorfilter representative of each point's Shaple value. 
 
-
 ![Image here](https://github.com/Mavisis/SHAP-for-Point-Cloud/blob/main/SHAX_PC_pipeline.png)
 
 
