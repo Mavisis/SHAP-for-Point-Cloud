@@ -1,9 +1,8 @@
-# SHapley Addative eXplenations for Point Coud (SHAX-PC)
+# Shapley-based Point Addative eXplenations (SPAX)
 
-Created by Marc F. Harinck from the University of Twente
+We propose an Explainable Artificial Intelligence methodology to interpret point cloud classification models. Our approach uses Shapley values from cooperative game theory which assigns contribution values to individual points towards a classification. Point cloud data contains rich spatial information, therefore it requires sophisticated deep learning models to make accurate predictions. However, these models often lack interpretability. Our methodology, Shapley-based Point Attribution eXplenations (SPAX), addresses this issue by quantifying and visualising the contribution of each point in a point cloud towards a prediction. To make it computationally feasible, a Monte Carlo approximation is used to estimate the Shapely values. To evaluate the method, a PointNet classifier trained on the ModelNet10 dataset is used to determine the Shapley values. These values are then coloured according to their magnitude and used to visually interpret their impact on the classification. The results show how spatial features become more interpretable because they identify key components to determine classification results. This study creates foundational principles to enable better point cloud interpretation, which produces opportunities to boost real-world deployments of transparent algorithmic systems.
 
-This project is part of a research into Explainable articifal Intelegence. THe already existing SHAP library contains explainers for two dimentionall imagery, text and tabular data. The library does not contain eplainers for more complex data structures such as point clouds. 
-This code is an implementation of the Shapley values theory applied to pointcloud. By computing an individual contribution of a single point wiithin the cloud, relative to the cloud, and iterating over all points in the cloud using monte-carlo sampling, An three-axis  visual is created containing the origional pointcloud with a colorfilter representative of each point's Shaple value. 
+Keywords: Explainable AI, PointNet, Point Cloud, Shapley Values, Interpretability, Classification, Monte Carlo Estimation
 
 ![Image here](https://github.com/Mavisis/SHAP-for-Point-Cloud/blob/main/SHAX_PC_pipeline.png)
 
