@@ -7,10 +7,10 @@ Keywords: Explainable AI, PointNet, Point Cloud, Shapley Values, Interpretabilit
 ![Image here](SPAX_Pipeline.png)
 
 
-This code uses the Modelnet 10 library and a pretrained model prvided by the paper by Charles R. Qi et. al. in their paper titled; PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation. 
 
 
 ### Citation
+(Will Update once the pre-print is avaliable) 
 If you find our work useful in your research, please consider citing:
 
 	@misc{essay103223,
@@ -22,6 +22,6 @@ If you find our work useful in your research, please consider citing:
         
 }
 
-### Usage
+### Output
 When loading in a single instance, the following output can be observed: 
 ![Image here](https://github.com/Mavisis/SHAP-for-Point-Cloud/blob/main/all_cls_mc_output(2).png)
