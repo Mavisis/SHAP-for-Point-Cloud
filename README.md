@@ -4,7 +4,7 @@ We propose an Explainable Artificial Intelligence methodology to interpret point
 
 Keywords: Explainable AI, PointNet, Point Cloud, Shapley Values, Interpretability, Classification, Monte Carlo Estimation
 
-![Image here](https://github.com/Mavisis/SHAP-for-Point-Cloud/blob/main/SHAX_PC_pipeline.png)
+![Image here](SPAX_Pipeline.png)
 
 
 This code uses the Modelnet 10 library and a pretrained model prvided by the paper by Charles R. Qi et. al. in their paper titled; PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation. 
